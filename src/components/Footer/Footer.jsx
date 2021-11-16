@@ -13,7 +13,7 @@ export default function Footer() {
       px={{ base: 4, md: '8%' }}
       borderTopWidth={2}
       borderColor={borderColor}>
-      mauricio garavaglia &#169; 2021
+      mauricio garavaglia @ intive
     </Box>
   );
 }
