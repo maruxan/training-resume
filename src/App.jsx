@@ -3,14 +3,14 @@ import { ChakraProvider } from '@chakra-ui/react';
 
 import theme from './style/theme.js';
 
-import { Box } from '@chakra-ui/react';
 import Header from './components/Header/Header.jsx';
+import Explorer from './components/Explorer/Explorer.jsx';
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Header />
-      <Box>App</Box>
+      <Explorer />
     </ChakraProvider>
   );
 }
