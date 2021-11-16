@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ChakraProvider } from '@chakra-ui/react';
+import { ChakraProvider, Box } from '@chakra-ui/react';
 
 import theme from './style/theme.js';
 
@@ -9,8 +9,10 @@ import Explorer from './components/Explorer/Explorer.jsx';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Header />
-      <Explorer />
+      <Box maxW="4xl" mx="auto">
+        <Header />
+        <Explorer />
+      </Box>
     </ChakraProvider>
   );
 }
