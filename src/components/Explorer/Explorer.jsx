@@ -6,12 +6,15 @@ import { Box, Link } from '@chakra-ui/react';
 import { AtSignIcon, StarIcon, LinkIcon } from '@chakra-ui/icons';
 import Folder from '../Folder/Folder';
 import File from '../File/File';
+import About from '../About/About';
 
 export default function Explorer() {
   return (
     <Box py={{ base: 5, md: 8 }} px={{ base: 4, md: '8%' }}>
       <Folder dirname="about">
-        <File filename="about.me" icon={<AtSignIcon />} />
+        <About>
+          <File filename="about.me" icon={<AtSignIcon />} />
+        </About>
       </Folder>
       <Folder dirname="projects">
         <Folder dirname="html-css">
