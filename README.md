@@ -1,6 +1,6 @@
 # React Training Program Resume
 
-Checkout what I've been working on during the React Training Program.
+Check out what I've been working on during the React Training Program.
 
 ## Tools
 
